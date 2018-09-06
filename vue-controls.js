@@ -138,6 +138,7 @@ new Vue({
                 this.youSurrender = true;
                 this.youHealth = 0;
                 this.startGame = false;
+                this.selectPJ = false;
             } else {
                 this.youHealth -= damage;
             }
